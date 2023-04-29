@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9EE306E29FD3751007BD478 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE306D29FD3751007BD478 /* AppDelegate.swift */; };
+		B9EE307029FD3751007BD478 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE306F29FD3751007BD478 /* SceneDelegate.swift */; };
+		B9EE307229FD3751007BD478 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE307129FD3751007BD478 /* TableViewController.swift */; };
+		B9EE307729FD3752007BD478 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9EE307629FD3752007BD478 /* Assets.xcassets */; };
+		B9EE307A29FD3752007BD478 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EE307829FD3752007BD478 /* LaunchScreen.storyboard */; };
+		B9EE308529FD3752007BD478 /* MafiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE308429FD3752007BD478 /* MafiaTests.swift */; };
+		B9EE308F29FD3752007BD478 /* MafiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE308E29FD3752007BD478 /* MafiaUITests.swift */; };
+		B9EE309129FD3752007BD478 /* MafiaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE309029FD3752007BD478 /* MafiaUITestsLaunchTests.swift */; };
+		B9EE309E29FD43F7007BD478 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE309D29FD43F7007BD478 /* Player.swift */; };
+		B9EE30A029FD4D97007BD478 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE309F29FD4D97007BD478 /* Enums.swift */; };
+		B9EE30A229FD5EFD007BD478 /* UserAccount+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A129FD5EFD007BD478 /* UserAccount+CoreDataClass.swift */; };
+		B9EE30A429FD5F48007BD478 /* UserAccount+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A329FD5F48007BD478 /* UserAccount+CoreDataProperties.swift */; };
+		B9EE30A629FD61E0007BD478 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A529FD61E0007BD478 /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9EE308129FD3752007BD478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9EE306229FD3751007BD478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9EE306929FD3751007BD478;
+			remoteInfo = Mafia;
+		};
+		B9EE308B29FD3752007BD478 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9EE306229FD3751007BD478 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9EE306929FD3751007BD478;
+			remoteInfo = Mafia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B9EE306A29FD3751007BD478 /* Mafia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EE306D29FD3751007BD478 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9EE306F29FD3751007BD478 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9EE307129FD3751007BD478 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B9EE307629FD3752007BD478 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9EE307929FD3752007BD478 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9EE307B29FD3752007BD478 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EE308029FD3752007BD478 /* MafiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EE308429FD3752007BD478 /* MafiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafiaTests.swift; sourceTree = "<group>"; };
+		B9EE308A29FD3752007BD478 /* MafiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MafiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EE308E29FD3752007BD478 /* MafiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafiaUITests.swift; sourceTree = "<group>"; };
+		B9EE309029FD3752007BD478 /* MafiaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafiaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9EE309D29FD43F7007BD478 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B9EE309F29FD4D97007BD478 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		B9EE30A129FD5EFD007BD478 /* UserAccount+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataClass.swift"; sourceTree = "<group>"; };
+		B9EE30A329FD5F48007BD478 /* UserAccount+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B9EE30A529FD61E0007BD478 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9EE306729FD3751007BD478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE307D29FD3752007BD478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE308729FD3752007BD478 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9EE306129FD3751007BD478 = {
+			isa = PBXGroup;
+			children = (
+				B9EE306C29FD3751007BD478 /* Mafia */,
+				B9EE308329FD3752007BD478 /* MafiaTests */,
+				B9EE308D29FD3752007BD478 /* MafiaUITests */,
+				B9EE306B29FD3751007BD478 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9EE306B29FD3751007BD478 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE306A29FD3751007BD478 /* Mafia.app */,
+				B9EE308029FD3752007BD478 /* MafiaTests.xctest */,
+				B9EE308A29FD3752007BD478 /* MafiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9EE306C29FD3751007BD478 /* Mafia */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE306F29FD3751007BD478 /* SceneDelegate.swift */,
+				B9EE307129FD3751007BD478 /* TableViewController.swift */,
+				B9EE309D29FD43F7007BD478 /* Player.swift */,
+				B9EE309F29FD4D97007BD478 /* Enums.swift */,
+				B9EE30A129FD5EFD007BD478 /* UserAccount+CoreDataClass.swift */,
+				B9EE30A329FD5F48007BD478 /* UserAccount+CoreDataProperties.swift */,
+				B9EE307829FD3752007BD478 /* LaunchScreen.storyboard */,
+				B9EE307629FD3752007BD478 /* Assets.xcassets */,
+				B9EE307B29FD3752007BD478 /* Info.plist */,
+				B9EE306D29FD3751007BD478 /* AppDelegate.swift */,
+				B9EE30A529FD61E0007BD478 /* Game.swift */,
+			);
+			path = Mafia;
+			sourceTree = "<group>";
+		};
+		B9EE308329FD3752007BD478 /* MafiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE308429FD3752007BD478 /* MafiaTests.swift */,
+			);
+			path = MafiaTests;
+			sourceTree = "<group>";
+		};
+		B9EE308D29FD3752007BD478 /* MafiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9EE308E29FD3752007BD478 /* MafiaUITests.swift */,
+				B9EE309029FD3752007BD478 /* MafiaUITestsLaunchTests.swift */,
+			);
+			path = MafiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9EE306929FD3751007BD478 /* Mafia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EE309429FD3752007BD478 /* Build configuration list for PBXNativeTarget "Mafia" */;
+			buildPhases = (
+				B9EE306629FD3751007BD478 /* Sources */,
+				B9EE306729FD3751007BD478 /* Frameworks */,
+				B9EE306829FD3751007BD478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mafia;
+			productName = Mafia;
+			productReference = B9EE306A29FD3751007BD478 /* Mafia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9EE307F29FD3752007BD478 /* MafiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EE309729FD3752007BD478 /* Build configuration list for PBXNativeTarget "MafiaTests" */;
+			buildPhases = (
+				B9EE307C29FD3752007BD478 /* Sources */,
+				B9EE307D29FD3752007BD478 /* Frameworks */,
+				B9EE307E29FD3752007BD478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9EE308229FD3752007BD478 /* PBXTargetDependency */,
+			);
+			name = MafiaTests;
+			productName = MafiaTests;
+			productReference = B9EE308029FD3752007BD478 /* MafiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9EE308929FD3752007BD478 /* MafiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EE309A29FD3752007BD478 /* Build configuration list for PBXNativeTarget "MafiaUITests" */;
+			buildPhases = (
+				B9EE308629FD3752007BD478 /* Sources */,
+				B9EE308729FD3752007BD478 /* Frameworks */,
+				B9EE308829FD3752007BD478 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9EE308C29FD3752007BD478 /* PBXTargetDependency */,
+			);
+			name = MafiaUITests;
+			productName = MafiaUITests;
+			productReference = B9EE308A29FD3752007BD478 /* MafiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9EE306229FD3751007BD478 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9EE306929FD3751007BD478 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B9EE307F29FD3752007BD478 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B9EE306929FD3751007BD478;
+					};
+					B9EE308929FD3752007BD478 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B9EE306929FD3751007BD478;
+					};
+				};
+			};
+			buildConfigurationList = B9EE306529FD3751007BD478 /* Build configuration list for PBXProject "Mafia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9EE306129FD3751007BD478;
+			productRefGroup = B9EE306B29FD3751007BD478 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9EE306929FD3751007BD478 /* Mafia */,
+				B9EE307F29FD3752007BD478 /* MafiaTests */,
+				B9EE308929FD3752007BD478 /* MafiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9EE306829FD3751007BD478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EE307A29FD3752007BD478 /* LaunchScreen.storyboard in Resources */,
+				B9EE307729FD3752007BD478 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE307E29FD3752007BD478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE308829FD3752007BD478 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9EE306629FD3751007BD478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EE30A429FD5F48007BD478 /* UserAccount+CoreDataProperties.swift in Sources */,
+				B9EE309E29FD43F7007BD478 /* Player.swift in Sources */,
+				B9EE307229FD3751007BD478 /* TableViewController.swift in Sources */,
+				B9EE30A229FD5EFD007BD478 /* UserAccount+CoreDataClass.swift in Sources */,
+				B9EE30A029FD4D97007BD478 /* Enums.swift in Sources */,
+				B9EE306E29FD3751007BD478 /* AppDelegate.swift in Sources */,
+				B9EE307029FD3751007BD478 /* SceneDelegate.swift in Sources */,
+				B9EE30A629FD61E0007BD478 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE307C29FD3752007BD478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EE308529FD3752007BD478 /* MafiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EE308629FD3752007BD478 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EE308F29FD3752007BD478 /* MafiaUITests.swift in Sources */,
+				B9EE309129FD3752007BD478 /* MafiaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9EE308229FD3752007BD478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9EE306929FD3751007BD478 /* Mafia */;
+			targetProxy = B9EE308129FD3752007BD478 /* PBXContainerItemProxy */;
+		};
+		B9EE308C29FD3752007BD478 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9EE306929FD3751007BD478 /* Mafia */;
+			targetProxy = B9EE308B29FD3752007BD478 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9EE307829FD3752007BD478 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EE307929FD3752007BD478 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9EE309229FD3752007BD478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9EE309329FD3752007BD478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9EE309529FD3752007BD478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mafia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Mafia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9EE309629FD3752007BD478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mafia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.Mafia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9EE309829FD3752007BD478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.MafiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mafia";
+			};
+			name = Debug;
+		};
+		B9EE309929FD3752007BD478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.MafiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mafia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Mafia";
+			};
+			name = Release;
+		};
+		B9EE309B29FD3752007BD478 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.MafiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mafia;
+			};
+			name = Debug;
+		};
+		B9EE309C29FD3752007BD478 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F6472MA2BW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.MafiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mafia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9EE306529FD3751007BD478 /* Build configuration list for PBXProject "Mafia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EE309229FD3752007BD478 /* Debug */,
+				B9EE309329FD3752007BD478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EE309429FD3752007BD478 /* Build configuration list for PBXNativeTarget "Mafia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EE309529FD3752007BD478 /* Debug */,
+				B9EE309629FD3752007BD478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EE309729FD3752007BD478 /* Build configuration list for PBXNativeTarget "MafiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EE309829FD3752007BD478 /* Debug */,
+				B9EE309929FD3752007BD478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EE309A29FD3752007BD478 /* Build configuration list for PBXNativeTarget "MafiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EE309B29FD3752007BD478 /* Debug */,
+				B9EE309C29FD3752007BD478 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9EE306229FD3751007BD478 /* Project object */;
+}
