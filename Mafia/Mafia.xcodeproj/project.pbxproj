@@ -20,6 +20,7 @@
 		B9EE30A229FD5EFD007BD478 /* UserAccount+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A129FD5EFD007BD478 /* UserAccount+CoreDataClass.swift */; };
 		B9EE30A429FD5F48007BD478 /* UserAccount+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A329FD5F48007BD478 /* UserAccount+CoreDataProperties.swift */; };
 		B9EE30A629FD61E0007BD478 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A529FD61E0007BD478 /* Game.swift */; };
+		B9EE30A829FD6510007BD478 /* DatabaseInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE30A729FD6510007BD478 /* DatabaseInit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B9EE30A129FD5EFD007BD478 /* UserAccount+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B9EE30A329FD5F48007BD478 /* UserAccount+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserAccount+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B9EE30A529FD61E0007BD478 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		B9EE30A729FD6510007BD478 /* DatabaseInit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseInit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				B9EE307B29FD3752007BD478 /* Info.plist */,
 				B9EE306D29FD3751007BD478 /* AppDelegate.swift */,
 				B9EE30A529FD61E0007BD478 /* Game.swift */,
+				B9EE30A729FD6510007BD478 /* DatabaseInit.swift */,
 			);
 			path = Mafia;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				B9EE307229FD3751007BD478 /* TableViewController.swift in Sources */,
 				B9EE30A229FD5EFD007BD478 /* UserAccount+CoreDataClass.swift in Sources */,
 				B9EE30A029FD4D97007BD478 /* Enums.swift in Sources */,
+				B9EE30A829FD6510007BD478 /* DatabaseInit.swift in Sources */,
 				B9EE306E29FD3751007BD478 /* AppDelegate.swift in Sources */,
 				B9EE307029FD3751007BD478 /* SceneDelegate.swift in Sources */,
 				B9EE30A629FD61E0007BD478 /* Game.swift in Sources */,

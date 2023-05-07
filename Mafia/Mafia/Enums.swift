@@ -24,6 +24,7 @@ enum Role: Int, CustomStringConvertible {
     case Sherif = 2
     case Doctor = 3
     case Prostitute = 4
+//    case Undead = 5
     case Maniac = 5
     case Lawyer = 6
     
@@ -88,7 +89,7 @@ enum Role: Int, CustomStringConvertible {
     
 }
 
-enum ActionType:Int, CustomStringConvertible {
+enum ActionType: Int, CustomStringConvertible {
     case MafiaKill = 0
     case SherifCheck = 1
     case Heal = 2
@@ -122,7 +123,7 @@ enum ActionType:Int, CustomStringConvertible {
         }
     }
     
-    var correspondingRole:Role{
+    var correspondingRole: Role{
         switch self {
         case .MafiaKill:
             return Role.Mafia
